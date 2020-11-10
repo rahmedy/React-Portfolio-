@@ -50,7 +50,8 @@
   }
 
   .dark {
-    color: #1c2237;
+    color: yellow;
+
   }
   
   .darkBg {
@@ -91,7 +92,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .home__hero-text-wrapper {
+    .home__main-text-wrapper {
       padding-bottom: 65px;
     }
   

@@ -10,15 +10,15 @@ function Main({
 }) {
     return (
         <>
-            <div className={lightBg ? 'home__main-section' : 'home__hero-section darkBg'} >
-                <h1>Test</h1>
+            <div className={lightBg ? 'home__main-section' : 'home__main-section darkBg'} >
+                
                 <div className="container">
                     <div className="row home__main-row"
                         style={{ display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row' }}
                     >
                         <div className='col'>
                             <div className="home__main-text-wrapper">
-                                <div className="top-lin">{topLine}</div>
+                                <div className="top-line">{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className={lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'}>{description}</p>
                                 <Link to="/sign-up">
