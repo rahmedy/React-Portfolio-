@@ -1,6 +1,7 @@
 .home__main-section {
     color: #fff;
-    padding: 160px 0;
+    background-color: coral;
+    padding: 208px 0;
   }
   
   .home__main-row {
@@ -32,7 +33,7 @@
   }
 
   .top-line {
-    color: #f00946;
+    color: orangered;
     font-size: 16px;
     line-height: 16px;
     font-weight: 700;

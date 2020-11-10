@@ -6,9 +6,9 @@ export const homeObjOne = {
     headLine: "Web Developer",
     description: " I am 21 years old and i a ma a wb developer nad this shit fucking sucks ass bro like i cannot process any of this shit right now ",
     buttonLable: "YOLO",
-    imgStart: '',
-    img: "images/svg-1.svg",
-    alt: "Nutz"
+    // imgStart: '',
+    // img: "images/svg-1.svg",
+    // alt: "Nutz"
 }
 
 export const homeObjTwo = {

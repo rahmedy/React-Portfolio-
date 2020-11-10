@@ -1,0 +1,73 @@
+.contact {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    padding: 350px 0px 0px 350px;
+}
+
+.list {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.list li {
+    position: relative;
+    list-style: none;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+li .per {
+    text-decoration: none;
+}
+
+.list li .icon-c {
+
+    font-size: 6rem;
+    color: #222;
+
+}
+
+.list li::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;  
+}
+
+.list li:nth-child(1)::before {
+    content: '\f09b';
+    color: coral;
+    border-bottom: 4px solid coral;
+    pointer-events: none
+}
+
+.list li:nth-child(2)::before {
+    content: '\f0e1';
+    color: royalblue;
+    border-bottom: 4px solid blue;
+    pointer-events: none
+}
+
+.list li:nth-child(3)::before {
+    content: '\f0e0';
+    color: crimson;
+    border-bottom: 4px solid crimson;
+    pointer-events: none
+}
+
+.list li:nth-child(4)::before {
+    content: '\f098';
+    color: lightgreen;
+    border-bottom: 4px solid lightgreen;
+    pointer-events: none
+}
+
+.list li:hover::before {
+    height: 100%;
+}
