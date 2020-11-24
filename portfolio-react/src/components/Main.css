@@ -1,7 +1,9 @@
 .home__main-section {
     color: #fff;
-    background-color: coral;
+    background: rgb(47,101,72);
+background: linear-gradient(295deg, rgba(47,101,72,1) 14%, rgba(67,181,107,1) 42%, rgba(64,133,119,1) 57%, rgba(29,6,24,1) 90%);
     padding: 208px 0;
+    height: 100vh;
   }
   
   .home__main-row {
@@ -33,10 +35,10 @@
   }
 
   .top-line {
-    color: orangered;
+    color: black;
     font-size: 16px;
     line-height: 16px;
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -51,19 +53,22 @@
   }
 
   .dark {
-    color: yellow;
+    color: white;
 
   }
   
   .darkBg {
-    background-color: #1c2237;
+    background: rgb(47,101,72);
+background: linear-gradient(130deg, rgba(47,101,72,1) 11%, rgba(67,181,107,1) 49%, rgba(63,245,209,1) 65%, rgba(29,6,24,1) 86%);
   }
 
   .home__main-subtitle {
     max-width: 440px;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-weight: 100px;
+    font-size: 16px;
     line-height: 24px;
+    letter-spacing: 1.4px;
   }
   
   .home__main-img-wrapper {

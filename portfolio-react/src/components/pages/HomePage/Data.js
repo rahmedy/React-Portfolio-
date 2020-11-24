@@ -1,40 +1,40 @@
 export const homeObjOne = { 
-    lightBg: false,
+    lightBg:false,
     lightText: true,
     lightTextDesc: true,
     topLine: "Turning Imaganations Into Reality",
-    headLine: "Web Developer",
-    description: " I am 21 years old and i a ma a wb developer nad this shit fucking sucks ass bro like i cannot process any of this shit right now ",
+    headLine: "Full-Stack Developer",
+    description: "",
     buttonLable: "YOLO",
-    // imgStart: '',
-    // img: "images/svg-1.svg",
-    // alt: "Nutz"
+    imgStart: 'start',
+    img: "images/svg-4.svg",
+    alt: "Nutz"
 }
+export const homeObjThree = {
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Create, React, Deploy ',
+  headline: 'Super fast and simple onboarding process',
+  description:
+    "I have been refred as by many as the tech guy. From unplging the power ord of the router to fix the wifi to devlopling a multiude of Web applcations using differtn technolgys i have lived up to the name. I like to keep things as short and easy as possible like this description. Please have a look at my work and feel free to contact me at anytime  ",
+  buttonLabel: 'Start Now',
+  imgStart: '',
+  img: 'images/svg-2.svg',
+  alt: 'Vault'
+};
 
 export const homeObjTwo = {
-    lightBg: false,
+    lightBg:false,
     lightText: true,
     lightTextDesc: true,
-    topLine: '100% SECURE',
+    topLine: 'Proffesioal Skills ',
     headline: 'Stay protected 24/7 anywhere anytime',
     description:
-      'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+      'Here are some of the skills i have picked up over the hears and ones that I am best at.',
     buttonLabel: 'Learn More',
-    imgStart: '',
-    img: 'images/svg-5.svg',
+    imgStart: 'start',
+    img: 'images/svg-2.svg',
     alt: 'Vault'
   };
   
-  export const homeObjThree = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
-    description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: 'start',
-    img: 'images/svg-7.svg',
-    alt: 'Vault'
-  };
