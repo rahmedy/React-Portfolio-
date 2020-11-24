@@ -7,7 +7,7 @@ export const homeObjOne = {
     description: "",
     buttonLable: "YOLO",
     imgStart: 'start',
-    img: "images/svg-4.svg",
+    img: "images/svg-3.svg",
     alt: "Nutz"
 }
 export const homeObjThree = {
@@ -34,7 +34,7 @@ export const homeObjTwo = {
       'Here are some of the skills i have picked up over the hears and ones that I am best at.',
     buttonLabel: 'Learn More',
     imgStart: 'start',
-    img: 'images/svg-2.svg',
+    img: 'images/svg-6.svg',
     alt: 'Vault'
   };
   

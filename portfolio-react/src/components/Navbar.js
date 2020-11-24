@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MdFingerprint } from 'react-icons/md';
-import { FaBars, FaTimes, FaDiceD20,FaDiagnoses,FaMountain,FaUserTie,FaGlasses,FaDesktop,FaDiceD6,FaCloud, FaChess,FaRegKeyboard} from 'react-icons/fa';
+import { FaBars, FaTimes, FaCloud} from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib'
@@ -37,7 +37,7 @@ function Navbar() {
                 <div className="navbar">
                     <div className="navbar-container container">
                         <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                            <FaRegKeyboard className='navbar-icon' />
+                            <FaCloud className='navbar-icon' />
                         Rayan Ahmedy
                    </Link>
                         <div className="menu-icon" onClick={handleClick} >
