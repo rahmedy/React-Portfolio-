@@ -10,7 +10,7 @@ body {
   font-family: 'avenir next', avenir, -apple-system, BlinkMacSystemFont,
     'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
     sans-serif;
-  color: #374047;
+  color: white;
 }
 
 #root {
@@ -102,7 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  background-color: #fff;
+  background-color:black;
   box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.3);
   transition: box-shadow 0.5s;
   will-change: transform;

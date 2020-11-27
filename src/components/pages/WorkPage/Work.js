@@ -125,9 +125,9 @@ function Image({ ratio, src }) {
 function Info() {
 	return (
 		<div className="info">
-			Projects {' '}
-			<a target="_blank" href="https://bit.ly/382KSdo">
-				divjoy.com
+			Projects at  {' '}
+			<a target="_blank" href="https://github.com/rahmedy">
+			github.com/rahmedy
 			</a>
 			<div className="notice">(best viewed at larger screen width)</div>
 		</div>
@@ -152,21 +152,21 @@ const cards = [
 	{
 		title: 'ClassM',
 		description:
-			'ClassManager is a MERN application that lets students and teachers upload their data or pull their data all from one source. Students will be allowed to easily keep track of due dates, progress on assignments, grades and can make small notes if they need. Enforce a syllabus structure that will make it easier on students and teachers for accessing a particular syllabus.',
+			'ClassManager is a MERN application that lets students and teachers upload their data or pull their data all from one source. Students will be allowed to easily keep track of due dates, progress on assignments, grades and can make small notes if they need. Enforce a syllabus structure that will make it easier for students and teachers for accessing a particular syllabus.',
 		image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
 		imageRatio: 730 / 1030
 	},
 	{
 		title: 'React-Employee-Directory',
 		description:
-			"This react applicatiuon required breaking down the application's UI into components, manage component state, and respond to user events so that the user can I be able to view his/her entire employee directory at once so that I have quick access to their information.",
+			"This React application required breaking down the application's UI into components, manage component state, and respond to user events so that the user can I be able to view his/her entire employee directory at once so that I have quick access to their information.",
 		image: '',
 		imageRatio: 730 / 1000
 	},
 	{
 		title: 'Online-Offline-Budget-Tracker',
 		description:
-			'The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.GIVEN a user is on Budget App without an internet connection WHEN the user inputs a withdrawal or deposit THEN that will be shown on the page, and added to their transaction history when their connection is back online. ',
+			'The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.GIVEN a user is on Budget App without an internet connection WHEN the user inputs a withdrawal or deposit THEN that will be shown on the page and added to their transaction history when their connection is back online.',
 		image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
 		imageRatio: 730 / 1000
 	}
