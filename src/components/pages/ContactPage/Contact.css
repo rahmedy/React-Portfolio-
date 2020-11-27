@@ -1,11 +1,89 @@
-.contact {
-    background-color: black;
-    display: flex;
-    height: 100vh;
-    padding: 350px 0px 0px 350px;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.list {
+body {
+	/* justify-content: center;
+	text-align: center; */
+	background: black}
+
+
+
+
+ .contact {
+	margin-bottom: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 70vh;
+}
+ .icon {
+	position: relative;
+	display: flex;
+}
+
+.icon  li {
+	position: relative;
+	list-style: none;
+	margin: 0 30px;
+	cursor: pointer;
+}
+
+.icon  li a {
+	text-decoration: none;
+}
+
+.icon  li a .fa {
+	font-size: 6rem;
+	color: #222;
+}
+.icon li::before {
+	font-family: fontAwesome;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 6em;
+	height: 0;
+	overflow: hidden;
+	transition: 0.5s ease-in-out;
+}
+
+.icon li:nth-child(1)::before {
+	content: '\f09b';
+	color: white;
+	border-bottom: 4px solid whitesmoke;
+	pointer-events: none
+}
+
+.icon li:nth-child(2)::before {
+	content: '\f0e1';
+	color: royalblue;
+	border-bottom: 4px solid blue;
+	pointer-events: none
+}
+
+.icon li:nth-child(3)::before {
+	content: '\f0e0';
+	color: crimson;
+	border-bottom: 4px solid crimson;
+	pointer-events: none
+}
+
+.icon li:nth-child(4)::before {
+	content: '\f098';
+	color: lightgreen;
+	border-bottom: 4px solid lightgreen;
+	pointer-events: none
+}
+
+.icon li:hover::before {
+	height: 100%;
+}
+
+/* .list {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -70,4 +148,4 @@ li .per {
 
 .list li:hover::before {
     height: 100%;
-}
+} */
