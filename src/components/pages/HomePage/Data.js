@@ -6,8 +6,8 @@ export const homeObjOne = {
     headLine: "Full-Stack Developer",
     description: "",
     imgStart: 'start',
-    img: "/images/svg-4.svg",
-    alt: "yolo"
+    img: "./pages/HomePage/svg-4.svg",
+    alt: "alt"
 }
 export const homeObjThree = {
   lightBg: true,
