@@ -22,7 +22,7 @@ function Main({
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className={lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'}>{description}</p>
                               
-                                 <Button>{buttonLable}</Button>
+                                 {/* <Button>{buttonLable}</Button> */}
                              
                             </div>
                         </div>

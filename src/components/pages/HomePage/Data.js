@@ -18,8 +18,10 @@ export const homeObjThree = {
   description:
     "I have been referred to by many as the tech guy. From unplugging the power cord of the router to fix the wifi to developing a multitude of Web applications using different technologies, I have lived up to the name. I like to keep things as short and easy as possible like this description. Please have a look at my work and feel free to contact me at any time. ",
   imgStart: 'start',
+  
+  alt: 'Vault',
   img: 'images/svg-2.svg',
-  alt: 'Vault'
+  
 };
 
 export const homeObjTwo = {
