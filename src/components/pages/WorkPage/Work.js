@@ -16,7 +16,8 @@ function Work() {
 							<div className="column">
 								<Card>
 									<div className="card-title">{card.title}</div>
-									<div className="card-body">{card.description}</div>
+									<div className="card-body">{card.description}  </div>
+									<a href={card.link} target="_blank">Check it out here</a>
 									<Image ratio={card.imageRatio} src={card.image} />
 								</Card>
 							</div>
@@ -125,7 +126,7 @@ function Image({ ratio, src }) {
 function Info() {
 	return (
 		<div className="info">
-			Projects at  {' '}
+			All Projects At  {' '}
 			<a target="_blank" href="https://github.com/rahmedy">
 			github.com/rahmedy
 			</a>
@@ -135,25 +136,30 @@ function Info() {
 }
 
 const cards = [
-	{
-		title: 'Covid-19 Tracker',
-		description:
-			'This group project we had to utilize CSS, HTML, JavaScript, API calls and JQuery to develop a working Live time COVID-19 tracker. This will provide users with the states currently reporting the most new cases as well as additional data about any state they search.The application also includses a syptonps test and a helpulf guides page for the user  ',
-		image: 'https://6jlvz1j5q3.csb.app/undraw_collection.svg',
-		imageRatio: 784 / 1016
-	},
+	
 	{
 		title: 'SocioPod',
 		description:
 			'This Application will allow the user to create an account in which they can fill out their interests and be shown podcasts that match their fit. The users data, such as their interests and favorites will be stored in a SQL database. This Application is powered by HTML5, CSS, Javascript, Node.js, MySQL, and is Deployed on Heroku.',
-		image: 'https://6jlvz1j5q3.csb.app/undraw_upload.svg',
-		imageRatio: 839 / 1133
+		image: '',
+		link: 'https://vast-scrubland-76826.herokuapp.com/',
+		imageRatio: 500 / 500
+	},
+
+	{
+		title: 'Covid-19 Tracker',
+		description:
+			'This group project we had to utilize CSS, HTML, JavaScript, API calls and JQuery to develop a working Live time COVID-19 tracker. This will provide users with the states currently reporting the most new cases as well as additional data about any state they search.The application also includses a syptonps test and a helpulf guides page for the user  ',
+		image: '',
+		link: 'https://github.com/courtneypaasch/covid19-tracker',
+		imageRatio: 784 / 1016
 	},
 	{
 		title: 'ClassM',
 		description:
 			'ClassManager is a MERN application that lets students and teachers upload their data or pull their data all from one source. Students will be allowed to easily keep track of due dates, progress on assignments, grades and can make small notes if they need. Enforce a syllabus structure that will make it easier for students and teachers for accessing a particular syllabus.',
 		image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
+		link: 'https://github.com/rahmedy/ClassM',
 		imageRatio: 730 / 1030
 	},
 	{
@@ -161,15 +167,10 @@ const cards = [
 		description:
 			"This React application required breaking down the application's UI into components, manage component state, and respond to user events so that the user can I be able to view his/her entire employee directory at once so that I have quick access to their information.",
 		image: '',
+		link: 'https://rahmedy.github.io/React-Employee-Directory/',
 		imageRatio: 730 / 1000
 	},
-	{
-		title: 'Online-Offline-Budget-Tracker',
-		description:
-			'The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.GIVEN a user is on Budget App without an internet connection WHEN the user inputs a withdrawal or deposit THEN that will be shown on the page and added to their transaction history when their connection is back online.',
-		image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
-		imageRatio: 730 / 1000
-	}
+
 ];
 
 export default Work;
