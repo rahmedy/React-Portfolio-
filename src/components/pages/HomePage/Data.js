@@ -6,7 +6,7 @@ export const homeObjOne = {
     headLine: "Full-Stack Developer",
     description: "",
     imgStart: 'start',
-    img: "./pages/HomePage/svg-4.svg",
+    img: "https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-3.svg",
     alt: "alt"
 }
 export const homeObjThree = {
@@ -17,10 +17,12 @@ export const homeObjThree = {
   headline: 'Super fast and simple onboarding process',
   description:
     "I have been referred to by many as the tech guy. From unplugging the power cord of the router to fix the wifi to developing a multitude of Web applications using different technologies, I have lived up to the name. I like to keep things as short and easy as possible like this description. Please have a look at my work and feel free to contact me at any time. ",
-  imgStart: 'start',
+  imgStart: '',
+  img: "https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-2.svg",
+  alt: "alt"
   
-  alt: 'Vault',
-  img: 'images/svg-2.svg',
+
+  
   
 };
 
@@ -34,7 +36,7 @@ export const homeObjTwo = {
       'Please feel free to take a look at my Resume ',
    buttonLable: 'Resume Link' ,
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-6.svg',
     alt: 'Vault'
   };
   

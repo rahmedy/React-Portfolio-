@@ -141,7 +141,7 @@ const cards = [
 		title: 'SocioPod',
 		description:
 			'This Application will allow the user to create an account in which they can fill out their interests and be shown podcasts that match their fit. The users data, such as their interests and favorites will be stored in a SQL database. This Application is powered by HTML5, CSS, Javascript, Node.js, MySQL, and is Deployed on Heroku.',
-		image: '',
+		image: 'src/components/pages/WorkPage/demo copy.png',
 		link: 'https://vast-scrubland-76826.herokuapp.com/',
 		imageRatio: 500 / 500
 	},
@@ -166,7 +166,7 @@ const cards = [
 		title: 'React-Employee-Directory',
 		description:
 			"This React application required breaking down the application's UI into components, manage component state, and respond to user events so that the user can I be able to view his/her entire employee directory at once so that I have quick access to their information.",
-		image: '',
+		image: 'https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-1.svg',
 		link: 'https://rahmedy.github.io/React-Employee-Directory/',
 		imageRatio: 730 / 1000
 	},
