@@ -28,7 +28,7 @@ body {
 .icon  li {
 	position: relative;
 	list-style: none;
-	margin: 0 30px;
+	margin: 0 40px;
 	cursor: pointer;
 }
 
@@ -82,3 +82,26 @@ body {
 .icon li:hover::before {
 	height: 100%;
 }
+
+
+@media screen and (max-width: 991px) {
+	.icon {
+		display: inline;
+		/* margin-top: 50px; */
+	}
+}
+
+
+/* @media screen and (max-width: 768px) {
+	.icon li {
+		display: inline;
+		
+	}
+} */
+
+/* @media screen and (max-width: 766px) {
+	.icon li {
+		padding-bottom: 75px;
+		
+	}
+} */

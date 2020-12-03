@@ -141,7 +141,7 @@ const cards = [
 		title: 'SocioPod',
 		description:
 			'This Application will allow the user to create an account in which they can fill out their interests and be shown podcasts that match their fit. The users data, such as their interests and favorites will be stored in a SQL database. This Application is powered by HTML5, CSS, Javascript, Node.js, MySQL, and is Deployed on Heroku.',
-		image: '',
+		image: 'https://github.com/VeigarMain/SocioPod/raw/master/assets/demo.png',
 		link: 'https://vast-scrubland-76826.herokuapp.com/',
 		imageRatio: 500 / 500
 	},
@@ -149,8 +149,8 @@ const cards = [
 	{
 		title: 'Covid-19 Tracker',
 		description:
-			'This group project we had to utilize CSS, HTML, JavaScript, API calls and JQuery to develop a working Live time COVID-19 tracker. This will provide users with the states currently reporting the most new cases as well as additional data about any state they search.The application also includses a syptonps test and a helpulf guides page for the user  ',
-		image: '',
+			'This group project we had to utilize CSS, HTML, JavaScript, API calls and JQuery to develop a working Live time COVID-19 tracker. This will provide users with the states currently reporting the most new cases as well as additional data about any state they search.The application also includses a syptonps test and a helpulf guides page for the user.  ',
+		image: 'https://user-images.githubusercontent.com/40651335/88978630-13f16e80-d28e-11ea-90eb-a4693d8ce963.png',
 		link: 'https://github.com/courtneypaasch/covid19-tracker',
 		imageRatio: 784 / 1016
 	},
@@ -158,7 +158,7 @@ const cards = [
 		title: 'ClassM',
 		description:
 			'ClassManager is a MERN application that lets students and teachers upload their data or pull their data all from one source. Students will be allowed to easily keep track of due dates, progress on assignments, grades and can make small notes if they need. Enforce a syllabus structure that will make it easier for students and teachers for accessing a particular syllabus.',
-		image: 'https://6jlvz1j5q3.csb.app/undraw_static_assets.svg',
+		image: 'https://github.com/rahmedy/ClassM/raw/main/client/public/demo.png',
 		link: 'https://github.com/rahmedy/ClassM',
 		imageRatio: 730 / 1030
 	},
@@ -166,7 +166,7 @@ const cards = [
 		title: 'React-Employee-Directory',
 		description:
 			"This React application required breaking down the application's UI into components, manage component state, and respond to user events so that the user can I be able to view his/her entire employee directory at once so that I have quick access to their information.",
-		image: 'https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-1.svg',
+		image: 'https://github.com/rahmedy/React-Employee-Directory/raw/main/public/demo.png',
 		link: 'https://rahmedy.github.io/React-Employee-Directory/',
 		imageRatio: 730 / 1000
 	},

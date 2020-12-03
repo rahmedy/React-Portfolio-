@@ -21,7 +21,7 @@ function Main({
                                 <div className="top-line">{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className={lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'}>{description}</p>
-                                <a href={link} target="_blank">Check it out here</a>
+                                
                               
                                  {/* <Button>{buttonLable}</Button> */}
                              

@@ -34,7 +34,7 @@ export const homeObjTwo = {
   topLine: 'Resume  ',
   headline: 'Stay protected 24/7 anywhere anytime',
   description: 'Here is the link to my resume ',
-  link: 'https://github.com/rahmedy/ClassM',
+  link: 'src/components/pages/HomePage/resume.pdf',
   buttonLable: 'Resume Link',
   imgStart: 'start',
   img: 'https://raw.githubusercontent.com/briancodex/react-website-v2/bdede367c9ac99d95de7fce8765c27e86b7fe152/public/images/svg-6.svg',
