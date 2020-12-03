@@ -126,7 +126,7 @@ function Image({ ratio, src }) {
 function Info() {
 	return (
 		<div className="info">
-			All Projects At  {' '}
+			All Projects And More At  {' '}
 			<a target="_blank" href="https://github.com/rahmedy">
 			github.com/rahmedy
 			</a>
@@ -141,7 +141,7 @@ const cards = [
 		title: 'SocioPod',
 		description:
 			'This Application will allow the user to create an account in which they can fill out their interests and be shown podcasts that match their fit. The users data, such as their interests and favorites will be stored in a SQL database. This Application is powered by HTML5, CSS, Javascript, Node.js, MySQL, and is Deployed on Heroku.',
-		image: 'src/components/pages/WorkPage/demo copy.png',
+		image: '',
 		link: 'https://vast-scrubland-76826.herokuapp.com/',
 		imageRatio: 500 / 500
 	},
