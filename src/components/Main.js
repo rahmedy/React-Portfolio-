@@ -5,7 +5,7 @@ import './Main.css';
 
 
 function Main({
-    lightBg, topLine, lightText, lightTextDesc, headLine, description, link,
+    lightBg, topLine, lightText, lightTextDesc, headLine, description, descriptionTwo, link,
     buttonLable, img, alt, imgStart
 }) {
     return (
@@ -21,8 +21,7 @@ function Main({
                                 <div className="top-line">{topLine}</div>
                                 <h1 className={lightText ? 'heading' : 'heading dark'}>{headLine}</h1>
                                 <p className={lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'}>{description}</p>
-                                
-                              
+                                <a className={lightTextDesc ? 'home__main-subtitle' : 'home__main-subtitle dark'} href={link} target="_blank"> {descriptionTwo} </a>
                                  {/* <Button>{buttonLable}</Button> */}
                              
                             </div>
